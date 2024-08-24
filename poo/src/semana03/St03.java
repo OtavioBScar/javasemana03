@@ -1,9 +1,19 @@
 package semana03;
 
+import javax.swing.JOptionPane;
+
 public class St03 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		String termosProibidos = "mulher gostosa pelada";
+		
+		String s = JOptionPane.showInputDialog("Digite o termo");
+		if (termosProibidos.contains(s)) {
+			JOptionPane.showMessageDialog(null, "Acesso proibido");
+		} else {
+			JOptionPane.showMessageDialog(null, "Acesso liberado");
+		}
 
 	}
 

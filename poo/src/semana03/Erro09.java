@@ -12,7 +12,6 @@ public class Erro09 {
 				for(int i = 0; i < 7; i++) {
 				System.out.println(br.readLine());
 				}
-				System.out.println(br.lines());
 				br.close();
 			}
 }
